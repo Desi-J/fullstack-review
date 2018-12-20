@@ -67,6 +67,8 @@
  * picture
  * auth0_id
 
+ *
+
 
 
 ## Npm packages
