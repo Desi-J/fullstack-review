@@ -19,7 +19,7 @@ module.exports = {
     //STEP 7
     function tradeAccessTokenForUserInfo(response) {
       console.log('response.data.access.token', response.data.access_token)
-      return axios.get(`https://${process.env.REACT_APP_AUTH0_DOMAIN}/userinfo?access_token`)
+      return axios.get(`https://${process.env.REACT_APP_AUTH0_DOMAIN}/userinfo?access_token=${response.data.access_token}`);
     }
 
     function storeUserInfoInDatabase(response) {

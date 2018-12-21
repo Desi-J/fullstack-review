@@ -5,7 +5,8 @@ const express = require('express'),
       // axios = require('axios'), // Dont need this because we are using axios in the controller
       dotenv = require('dotenv');
       authController = require('./controllers/authController')
-      quotesController = require('./controllers/quotesController')
+      quotesController = require('./controllers/quotesController');
+
 
       console.log('Hi! ^_^')
 dotenv.config();
